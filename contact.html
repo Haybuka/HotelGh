@@ -7,24 +7,25 @@
     <title>Document</title>
     <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" /> -->
+    <link rel="stylesheet" href="contact.css">
 </head>
 
 <body>
     <div id="container">
         <nav>
             <ul>
-                <li>Rooms & Facilities</li>
-                <li>HotelGH</li>
-                <li>Contact Us</li>
+                <li class="first"><a href="#">Rooms & Facilities</a></li>
+                <li class="second"><a href="#">HotelGH</a></li>
+                <li class="third"><a href="#">Contact Us</a></li>
             </ul>
         </nav>
         <header>
-            contact us
+            <h1> contact us</h1>
         </header>
         <main>
             <div id="left">
                 <h3>Contact Our Team</h3>
-                <p>Need help?.Reach out to us,we got answers to your question</p>
+                <p>Need help?.Reach out to us,<br />we got answers to your question</p>
                 <ul>
                     <li>285A Corporation Drive,Dolphin Estate,Ikoyi,Lagos</li>
                     <li>080-3473-9837</li>
@@ -33,20 +34,26 @@
                 </ul>
             </div>
             <div id="right">
+                <p>send a message</p>
                 <form action="">
                     <label for="">
-                        <p>Full Name</p>
-                        <input type="text" id="name" placeholder="Enter your name">
+
+                        <input type="text" id="Fname" placeholder="First name">
                     </label>
                     <label for="">
-                        <p>Email Address</p>
+
+                        <input type="text" id="Lname" placeholder="Last name">
+                    </label>
+                    <label for="">
+
                         <input type="email" id="mail" placeholder="Enter your Mail">
                     </label>
                     <label for="">
-                        <p>Your Message</p>
-                        <textarea name="text" id="message" cols="40" rows="10" placeholder="message"></textarea>
+
+                        <textarea name="text" id="message" cols="40" rows="10" placeholder="Enter message"></textarea>
                     </label>
                 </form>
+                <button>Send Message</button>
             </div>
         </main>
         <footer>
