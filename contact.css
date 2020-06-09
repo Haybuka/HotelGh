@@ -129,4 +129,52 @@ main #right button {
 footer {
     grid-row: 4/5;
     grid-column: 1/13;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, minmax(0, auto));
+    padding: 40px;
+    grid-gap: 10px;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    list-style-type: none;
+    margin-top: 15px;
+
+}
+
+footer #footFirst {
+    grid-column: 2/4;
+}
+
+footer #footFirst ul {
+    display: flex;
+}
+
+footer #footFirst li {
+    margin-left: 10px;
+}
+
+footer #footSecond {
+    grid-column: 7/8;
+}
+
+footer #footThird {
+    grid-column: 8/9;
+}
+
+footer #footFourth {
+    grid-column: 9/10;
+}
+
+footer #footFifth {
+    grid-column: 10/11;
+}
+
+footer #footSixth {
+    grid-column: 11/12;
 }
